@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, dd, dl, dt, li, ol, ul,input,select,button,textarea { padding:0; margin:0; border:none;}
+input,button,select,textarea,a,img{outline:none; }/*去掉超链接或按钮点击时出现的虚线框黄色边框*/
+::-moz-focus-inner{border:0;}/*火狐的私有属性去掉点击时边框*/
+article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote { display: block; }
+ul, ol { list-style: none; }
+img { border: 0 none; vertical-align: top; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+strong, em, i { font-style: normal; font-weight: normal; }
+ins { text-decoration: underline; }
+del { text-decoration: line-through; }
+mark { background: none; }
+input::-ms-clear { display: none !important; }
+input, textarea {border: 0;font-family:"Microsoft YaHei";}
+html{ overflow: hidden;}
+body {font-size:12px; width:100%; padding: 0;  font-family:"Microsoft YaHei","Arial", "SimSun";}
+a { text-decoration: none; color: #333; }
+a:hover { text-decoration: none; }
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: ".";clear: both;height: 0;}
+* html .clearfix {zoom: 1;}
+*:first-child + html .clearfix {zoom: 1;}
+
+
+
+/*上传图片通用样式*/
+.upload-ul{ position: relative;  display: inline-block; *display: inline; *zoom:1; max-width: 100%; }
+.upload-ul li{ position: relative; float: left; display: inline-block; width: 100px; height: 90px; margin: 0 10px 10px 0; padding: 0; border: none; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; overflow: hidden; }
+.upload-pick{ background: url(../img/upload-bj.png) no-repeat 0 0; }
+.upload-pick:hover{ background: url(../img/upload-bj.png) no-repeat 0 -90px; }
+.webuploader-pick{position: relative;display: inline-block;vertical-align: top; width: 100%; height: 100%;}
+.webuploader-container{ position: relative; width: 100%; height: 100%; }
+.webuploader-container label{position: absolute;left: 0;top: 0;width: 100%;}
+.webuploader-element-invisible{opacity: 0;width: 100%;height: 100%;clip: rect(1px 1px 1px 1px);clip: rect(1px,1px,1px,1px);}
+.viewThumb{ position:relative;width: 100%;height: 100%;overflow:hidden;border-radius: .3rem;}
+.viewThumb img{ width: 100%;height: 100%}
+.diyBar{ position: absolute; display:none; top: 0;left: 0;width: 100%;height: 100%;background: url(../img/bgblack.png);z-index: 3;}
+.diyProgress { position: absolute;font-size:14px;text-align:center;color:#FFF;position:relative;z-index:99; }
+.diyProgressText { position: absolute; left: 0;top: 33px;width: 100%;height: 24px;line-height:24px;font-size: 14px;text-align: center;color: #FFF;background:rgba(10,168,241,.7); z-index: 3; }
+.diyControl{ position: absolute; display:none; left: 0;bottom: 0;width: 100%;height: 24px;line-height:24px;font-size: 14px;background: url(../img/bgblack.png); z-index: 3; }
+.viewThumb:hover .diyControl{ display: block; }
+.diyControl span{ display: inline-block; width:50%; height:100% }
+.diyControl span i{ display: block; opacity: .7; padding: 6.5px 8px; margin-left:10px; }
+.diyControl span i:hover{ opacity: 1; cursor: pointer; }
+
+.diyLeft i{ width: 12px; height: 12px; background: url(../img/home.png) no-repeat center; }
+.diyCancel i{ width: 12px; height: 12px; background: url(../img/upload-icon1.png) no-repeat 0 -11px; }
+.diyRight i{ width: 12px; height: 12px; background: url(../img/trash.png) no-repeat center; }
+.goods-edit .upload-tip{ font: 12px/23px "Microsoft YaHei"; color: #a3a3a3;vertical-align: top; }
+
+.diySuccess {
+	position:absolute;
+	width:18px;
+	height:18px;
+	top:2px;
+	right:2px;
+	cursor:pointer;
+	display:none;
+}
+.diySuccess {
+	background:url(../img/check_alt.png) no-repeat;
+	cursor:default;
+}
+
+.mainImg {
+	position:absolute;
+	width:17px;
+	height:23px;
+	top:2px;
+	left:2px;
+	cursor:pointer;
+	display:none;
+}
+.mainImg {
+	background:url(../img/first.png) no-repeat;
+	cursor:default;
+}

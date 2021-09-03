@@ -1,0 +1,564 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+.icon-more{
+	background:url('icons/more.png') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+
+.hjtr-money{
+	background:url('icons/money.png') no-repeat center center;
+}
+.hr-view {
+	background:url('icons/report_link.png') no-repeat center center;
+}
+.hr-menu{
+	background:url('icons/menu.png') no-repeat center center;
+}
+.hr-warn{
+	background:url('icons/warn.png') no-repeat center center;
+}
+.hr-error{
+	background:url('icons/error.png') no-repeat center center;
+}
+.hr-loading{
+	background:url('icons/loading.gif') no-repeat center center;
+}
+
+.hr-record {
+	background:url('icons/20160316/record_16x16.gif') no-repeat center center;
+}
+.hr-cart {
+	background:url('icons/20160316/shopping_cart_16x16.gif') no-repeat center center;
+}
+.hr-user {
+	background:url('icons/20160316/user5_16x16.gif') no-repeat center center;
+}
+.hr-database {
+	background:url('icons/20160316/database_field_16x16.gif') no-repeat center center;
+}
+.hr-law {
+	background:url('icons/20160316/law_16x16.gif') no-repeat center center;
+}
+.hr-admin{
+	background:url('icons/20160316/administrator3_16x16.gif') no-repeat center center;
+}
+.hr-076{
+	background:url('icons/20160316/076.gif') no-repeat center center;
+}
+.hr-user4add{
+	background:url('icons/20160316/user4_(add)_16x16.gif') no-repeat center center;
+}
+.hr-imageadd{
+	background:url('icons/20160316/image_(add)_16x16.gif') no-repeat center center;
+}
+.hr-flag2add{
+	background:url('icons/20160316/flag2_(add)_16x16.gif') no-repeat center center;
+}
+.hr-award {
+	background:url('icons/20160316/award_star_gold_1.png') no-repeat center center;
+}
+.hr-settings{
+	background:url('icons/20160316/cog.png') no-repeat center center;
+}
+
+.hr-coins{
+	background:url('icons/20160316/coins.png') no-repeat center center;
+}
+.hr-turn-on{
+	background:url('icons/20160316/turn-on_16x16.gif') no-repeat center center;
+}
+.hr-creditcards{
+	background:url('icons/20160316/creditcards.png') no-repeat center center;
+}
+.hr-report_user{
+	background:url('icons/20160316/report_user.png') no-repeat center center;
+}
+.hr-report_link{
+	background:url('icons/20160316/report_link.png') no-repeat center center;
+}
+.hr-addt{
+	background:url('icons/20160316/overlays.png') no-repeat center center;
+	width:50px;
+	height:16px;
+}
+A.hr-addt{
+	width:50px;
+	height:16px;
+}
+.hr-loading{
+	background:url('icons/loading.gif') no-repeat center center;
+}
+.icon-bolt{
+	background:url('icons/bolt.png') no-repeat center center;
+}
+.icon-organisation{
+	background:url('icons/chart_organisation.png') no-repeat center center;
+}
+/**
+商品管理
+ */
+.icon-goods-manager{
+	background:url('icons/20201223/goods_manager.png') no-repeat center center;
+	background-size: 16px 16px;
+}
+/**
+商品列表
+ */
+.icon-goods-list{
+	background:url('icons/20201223/goods_list.png') no-repeat center center;
+	background-size: 20px 20px;
+}
+/**
+商品分类
+ */
+.icon-goods-classify{
+	background:url('icons/20201223/goods_classify.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+品牌管理
+ */
+.icon-goods-grand{
+	background:url('icons/20201223/goods_brand.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+颜色管理
+ */
+.icon-goods-color{
+	background:url('icons/20201223/goods_color.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+材质管理
+ */
+.icon-goods-material{
+	background:url('icons/20201223/goods_material.png') no-repeat center center;
+	background-size: 18px 18px;
+}/**
+单位管理
+ */
+.icon-goods-company{
+	background:url('icons/20201223/goods_company.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+尺寸管理
+ */
+.icon-goods-size{
+	background:url('icons/20201223/goods_size.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+款式管理
+ */
+.icon-goods-style{
+	background:url('icons/20201223/goods_style.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+季节管理
+ */
+.icon-goods-season{
+	background:url('icons/20201223/goods_season.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+条码管理
+ */
+.icon-goods-barcode{
+	background:url('icons/20201223/goods_barcode.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+采购管理
+ */
+.icon-goods-purchase{
+	background:url('icons/20201223/goods_purchase.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+采购单
+ */
+.icon-purchase-order{
+	background:url('icons/20201223/purchase_order.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+供应商管理
+ */
+.icon-supplier-manage{
+	background:url('icons/20201223/supplier_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+采购订单
+ */
+.icon-purchase-plan{
+	background:url('icons/20201223/purchase_plan.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+采购退货单
+ */
+.icon-purchase-return{
+	background:url('icons/20201223/purchase_return.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+销售订单
+ */
+.icon-sale-plan{
+	background:url('icons/20201223/sale_plan.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+销售管理
+ */
+.icon-sale-manage{
+	background:url('icons/20201223/sale_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+客户管理
+ */
+.icon-client-list{
+	background:url('icons/20201223/client_list.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+客户类别
+ */
+.icon-client-category{
+	background:url('icons/20201223/client_category.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+销售单
+ */
+.icon-sale-order{
+	background:url('icons/20201223/sale_order.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+销售退货单
+ */
+.icon-sale-return{
+	background:url('icons/20201223/sale_return.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+销售退货申请
+ */
+.icon-sale-reject{
+	background:url('icons/20201223/sale_reject.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+仓库管理
+ */
+.icon-store-manage{
+	background:url('icons/20201223/store_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+库存查询
+ */
+.icon-store-list{
+	background:url('icons/20201223/store_list.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+库存流水
+ */
+.icon-store-inventory{
+	background:url('icons/20201223/store_inventory.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+调拨单
+ */
+.icon-store-transfer{
+	background:url('icons/20201223/store_transfer.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+盘点单
+ */
+.icon-store-record{
+	background:url('icons/20201223/store_record.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+报表管理
+ */
+.icon-report-manage{
+	background:url('icons/20201223/report_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+采购报表
+ */
+.icon-report-purchase{
+	background:url('icons/20201223/report_purchase.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+销售报表
+ */
+.icon-report-sale{
+	background:url('icons/20201223/report_sale.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+盘点报表
+ */
+.icon-report-store{
+	background:url('icons/20201223/report_store.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+盘点报表
+ */
+.icon-report-transfer{
+	background:url('icons/20201223/report_transfer.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+账户流水
+ */
+.icon-finance-account{
+	background:url('icons/20201223/finance_account.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+财务
+ */
+.icon-finance-manage{
+	background:url('icons/20201223/finance_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+客户对账
+ */
+.icon-finance-client{
+	background:url('icons/20201223/finance_client.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+供应商对账
+ */
+.icon-finance-supplier{
+	background:url('icons/20201223/finance_supplier.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+结算账户
+ */
+.icon-settlement{
+	background:url('icons/20201223/settlement.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+账目类型
+ */
+.icon-account-type{
+	background:url('icons/20201223/account_type.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+会员
+ */
+.icon-vip{
+	background:url('icons/20201223/vip.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+
+/**
+系统设置
+ */
+.icon-system-settings{
+	background:url('icons/20201223/system_settings.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+发送报告
+ */
+.icon-send-report{
+	background:url('icons/20201223/send_report.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+个人信息
+ */
+.icon-user-info{
+	background:url('icons/20201223/user_info.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+员工管理
+ */
+.icon-user-manage{
+	background:url('icons/20201223/user_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+组织机构
+ */
+.icon-organization{
+	background:url('icons/20201223/organization.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+角色管理
+ */
+.icon-user-role{
+	background:url('icons/20201223/user_role.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+打印模板
+ */
+.icon-print-template{
+	background:url('icons/20201223/print_template.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+物流管理
+ */
+.icon-logistics{
+	background:url('icons/20201223/logistics.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+系统参数
+ */
+.icon-system-parameter{
+	background:url('icons/20201223/system_parameter.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+系统日志
+ */
+.icon-system-log{
+	background:url('icons/20201223/system_log.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+新手入门
+ */
+.icon-new-introduction{
+	background:url('icons/20201223/new_introduction.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+系统重置
+ */
+.icon-system-reset{
+	background:url('icons/20201223/system_reset.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+人员管理
+ */
+.icon-person-manage{
+	background:url('icons/20201223/person_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}
+/**
+客户
+ */
+.icon-client-manage{
+	background:url('icons/20201223/client_manage.png') no-repeat center center;
+	background-size: 18px 18px;
+}

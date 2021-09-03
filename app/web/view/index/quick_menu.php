@@ -1,0 +1,42 @@
+<div class="easyui-panel" data-options="fit:true,border:false" style="padding:10px;overflow:hidden;">
+	<a
+		class="easyui-linkbutton"
+		data-options="iconCls:'hr-cart',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>全部数据</a>
+	<a
+		class="easyui-linkbutton"
+		data-options="iconCls:'hr-cart',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>我的数据 </a>
+	<a
+		href="#"
+		class="easyui-linkbutton"
+		data-options="iconCls:'hr-cart',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>今天数据</a>
+	<a
+		href="#"
+		class="easyui-linkbutton"
+		data-options="iconCls:'hr-cart',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>员工管理</a>
+	<a
+		href="#"
+		class="easyui-linkbutton"
+		data-options="iconCls:'hr-cart',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>角色管理</a>
+	<a
+		href="#"
+		class="easyui-linkbutton"
+		data-options="iconCls:'hr-cart',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>权限管理</a>
+	<a
+		href="#"
+		class="easyui-linkbutton"
+		data-options="iconCls:'icon-large-picture',size:'large',iconAlign:'top'"
+		style="width:100%;margin-bottom:10px;"
+	>控制器</a>
+</div>
