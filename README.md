@@ -33,9 +33,7 @@ PSI服装零售管理系统以销售企业的核心业务：采购-销售-库存
 
 #### 功能清单
 
-![微信图片_20210902162249](https://user-images.githubusercontent.com/67311804/131936832-0516ff64-fc7f-
-
-4136-8552-313a30036bed.png)
+![微信图片_20210902162249](https://user-images.githubusercontent.com/67311804/131936832-0516ff64-fc7f-4136-8552-313a30036bed.png)
 
 ####  **代码仓库** 
 
@@ -75,6 +73,4 @@ Gitee: https://gitee.com/nikegit/psi-web.git
 QQ群：619082556
 
 
-![微信图片_20210901160410](https://user-images.githubusercontent.com/67311804/131644493-a0d7fccb-0d3f-
-
-4eba-be50-8f5e3d8b7547.jpg)
+![微信图片_20210901160410](https://user-images.githubusercontent.com/67311804/131644493-a0d7fccb-0d3f-4eba-be50-8f5e3d8b7547.jpg)
