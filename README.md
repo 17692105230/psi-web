@@ -1,56 +1,80 @@
-ThinkPHP 6.0
-===============
+# PSI服装零售管理系统
 
-> 运行环境要求PHP7.1+。
+####  **介绍** 
+PSI服装零售是一个集采购、销售、库存、成本核算、核心业务、账务协同应用功能于一体的服装类进销存管理系统。
 
-[官方应用服务市场](https://www.thinkphp.cn/service) | [`ThinkPHP`开发者扶持计划](https://sites.thinkphp.cn/1782366)
+PSI服装零售管理系统以销售企业的核心业务：采购-销售-库存-财务为切入点，着手打造智能、便捷式管理平台。整个
 
-ThinkPHPV6.0版本由[亿速云](https://www.yisu.com/)独家赞助发布。
+系统一体化设计，功能流畅，操作方便，界面美观友好，是您商贸管理的不二之选！
 
-## 主要新特性
+####  **演示** 
+ 后台系统： http://psi.100wi.cn/
 
-* 采用`PHP7`强类型（严格模式）
-* 支持更多的`PSR`规范
-* 原生多应用支持
-* 更强大和易用的查询
-* 全新的事件系统
-* 模型事件和数据库事件统一纳入事件系统
-* 模板引擎分离出核心
-* 内部功能中间件化
-* SESSION/Cookie机制改进
-* 对Swoole以及协程支持改进
-* 对IDE更加友好
-* 统一和精简大量用法
+####  **PSI技术架构** 
 
-## 安装
+数据库：MySQL 5.5+
 
-~~~
-composer create-project topthink/think tp 6.0.*
-~~~
+运行环境：开源版PHP7+
 
-如果需要更新框架使用
-~~~
-composer update topthink/framework
-~~~
+后端框架：ThinkPHP5+
 
-## 文档
+前端框架：EasyUi
 
-[完全开发手册](https://www.kancloud.cn/manual/thinkphp6_0/content)
+缓存：Redis
 
-## 参与开发
+####  **使用说明** 
+1、本项目使用的是.env文件的配置文件来连接数据库，在根目录的.env文件中，需要自行搭建环境导入数据库
 
-请参阅 [ThinkPHP 核心框架包](https://github.com/top-think/framework)。
+(sql/psi.sql)并修改配置(.env)文件；
 
-## 版权信息
+2、本系统需要开启Redis。需要自行搭建Redis环境并且修改（.env）文件中Redis配置项
 
-ThinkPHP遵循Apache2开源协议发布，并提供免费使用。
+3、本系统目前是初始版本，后期会持续更新、完善、优化。
 
-本项目包含的第三方源码和二进制文件之版权信息另行标注。
+#### 功能清单
 
-版权所有Copyright © 2006-2020 by ThinkPHP (http://thinkphp.cn)
+![微信图片_20210902162249](https://user-images.githubusercontent.com/67311804/131936832-0516ff64-fc7f-
 
-All rights reserved。
+4136-8552-313a30036bed.png)
 
-ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
+####  **代码仓库** 
 
-更多细节参阅 [LICENSE.txt](LICENSE.txt)
+本系统分为PSI服装零售小程序和PSI服装零售管理系统，如有需求请自行选择下载
+
+1、PSI服装零售小程序
+
+演示：小程序请搜索《psi服装零售》
+
+体验账号：admin123
+
+体验密码：123456
+
+GitHub： https://github.com/17692105230/psi.git
+
+Gitee: https://gitee.com/nikegit/psi.git
+
+2、PSI服装零售管理系统
+
+演示： http://psi.100wi.cn/
+
+GitHub： https://github.com/17692105230/psi-web.git
+
+Gitee: https://gitee.com/nikegit/psi-web.git
+
+#### 开源版使用须知
+1、遵循GPL-3.0开源协议发布
+
+2、允许用于个人学习、毕业设计、教学案例、公益事业
+
+3、如果商用必须保留版权信息，并联系版主，请自觉遵守
+
+4、禁止将本项目的代码和资源进行任何形式的出售，产生的一切责任由侵权者承担
+
+####  **技术支持请联系** 
+
+QQ群：619082556
+
+
+![微信图片_20210901160410](https://user-images.githubusercontent.com/67311804/131644493-a0d7fccb-0d3f-
+
+4eba-be50-8f5e3d8b7547.jpg)
